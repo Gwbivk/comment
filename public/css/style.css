@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;600;800&display=swap');
+body {
+    background: whitesmoke;
+    background: rgb(203 232 255);
+    -wekit-font-smoothing: antialiased;
+    font-family: 'Muli', sans-serif;
+}
+.comment__box {
+    list-style-type: none;
+    padding-left: 0;
+}
+.comment__box .comment h6 {
+    font-weight: 800;
+}
+p {
+    font-size: 16px;
+}
+.comment {
+    animation: something .6s ease forwards;
+}
+.btn {
+    color: #fff;
+    background-color: #482879;
+    border-color: #422470;
+    justify-content: center;
+    margin: 11px 97px 18px 67px;
+    /* margin: auto; */
+    font-size: 21px;
+}
+
+@keyframes something {
+    0% {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.feedback{
+    font-size: 45px;
+    color: rgb(13, 92, 240);
+}
+.vir{
+    color: hotpink;
+}
+/* @media min (360px) */
+@media (min-width:360px) and (max-width:559px) {
+    .vir{
+        color: green;
+        font-size: 23px;
+        
+    }
+    label{
+        color: #055f08;
+        padding: 23px 1px 11px;
+        font-size: 34px;
+    }
+    #textarea{
+        height: 120px;
+    }
+    h4{
+        color: red;
+        padding: 25px 26px 12px;
+        font-size: 36px;
+        
+    }
+    .btn {
+        color: #fff;
+        background-color: #482879;
+        border-color: #422470;
+        justify-content: center;
+        margin: 11px 97px 18px 67px;
+        /* margin: auto; */
+        font-size: 21px;
+    }
+}
+@media (min-width:560px) and (max-width:568px) {
+    .vir{
+        color: rgb(0, 48, 110);
+        font-size: 23px;
+        
+    }
+    label{
+        color: #055f08;
+        padding: 23px 26px 11px;
+        font-size: 34px;
+    }
+    #textarea{
+        height: 120px;
+    }
+    h4{
+        color: rgb(0, 48, 110);
+        padding: 25px 26px 12px;
+        font-size: 34px;
+        text-align: center;
+    }
+    .btn {
+        color: #fff;
+        background-color: #482879;
+        border-color: #422470;
+        justify-content: center;
+        margin: 11px 97px 18px 67px;
+        /* margin: auto; */
+        font-size: 21px;
+    }
+}
+@media (min-width:569px) and (max-width:700px) {
+    .vir{
+        color: rgb(0, 48, 110);
+        font-size: 23px;
+        
+    }
+    label{
+        color: #055f08;
+        padding: 23px 26px 11px;
+        font-size: 34px;
+    }
+    #textarea{
+        height: 120px;
+    }
+    h4{
+        color: rgb(230, 15, 158);
+        /* padding: 25px 26px 12px; */
+        font-size: 38px;
+        text-align: center;
+    }
+    .btn {
+        color: #fff;
+        background-color: #482879;
+        border-color: #422470;
+        justify-content: center;
+        margin: 11px 97px 18px 67px;
+        /* margin: auto; */
+        font-size: 21px;
+    }
+}
+
